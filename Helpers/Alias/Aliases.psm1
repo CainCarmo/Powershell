@@ -1,5 +1,5 @@
 function ListFolders {
-  eza -lha --icons = auto --sort = name --group-directories-first
+  eza -lha --icons=auto --sort=name --group-directories-first
 }
 
 function Set-LocationDownloads {
