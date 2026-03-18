@@ -1,3 +1,9 @@
+# --> Variables
+$Global:PS_HOME_PROFILE = (
+  $PROFILE -split "\\" | ForEach-Object {
+    if ($_.Contains(".ps1")) { return }  return $_
+  }) -join "\\"
+
 # --> Modules
 Import-Module -Name PSReadLine
 Import-Module -Name Terminal-Icons
