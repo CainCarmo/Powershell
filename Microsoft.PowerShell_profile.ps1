@@ -8,6 +8,7 @@ $Global:PS_HOME_PROFILE = (
 Import-Module -Name PSReadLine
 Import-Module -Name Terminal-Icons
 Import-Module -Name "${Global:PS_HOME_PROFILE}\Modules\UI\OhMyPosh.psd1"
+Import-Module -Name "${Global:PS_HOME_PROFILE}\Modules\UI\Fastfetch.psd1"
 
 # --> Settings
 Set-PSReadLineOption -EditMode Windows
@@ -16,3 +17,4 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 Set-PSReadLineKeyHandler -Key Tab -Function TabCompleteNext
 
 Set-OhMyPoshTheme -themeName "kushal"
+Show-SystemInfo
