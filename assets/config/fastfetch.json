@@ -1,0 +1,123 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "auto",
+    "padding": {
+      "top": 2,
+      "left": 2,
+      "right": 2
+    },
+    "preserveAspectRatio": true
+  },
+  "display": {
+    "separator": " : "
+  },
+  "modules": [
+    {
+      "type": "break"
+    },
+    {
+      "type": "custom",
+      "format": "  󰮯 : i use arch, btw"
+    },
+    {
+      "type": "custom",
+      "format": "┌───────────────────────────────────────────────────────┐"
+    },
+    {
+      "type": "os",
+      "key": "   OS",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "wm",
+      "key": "   WM",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "kernel",
+      "key": "   Kernel",
+      "keyColor": "magenta"
+    },
+
+    {
+      "type": "shell",
+      "key": "   Shell",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "terminal",
+      "key": "   Terminal",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "packages",
+      "key": "  󰮯 Packages",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "custom",
+      "format": "└───────────────────────────────────────────────────────┘"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "title",
+      "key": "  "
+    },
+    {
+      "type": "custom",
+      "format": "┌───────────────────────────────────────────────────────┐"
+    },
+    {
+      "type": "host",
+      "key": "  󰍹 Host",
+      "keyColor": "green",
+      "format": "{5} {1} Type {2}"
+    },
+    {
+      "type": "cpu",
+      "key": "  󰍛 CPU",
+      "keyColor": "green",
+      "format": "{1}"
+    },
+    {
+      "type": "gpu",
+      "key": "   GPU",
+      "keyColor": "green",
+      "format": "{2}"
+    },
+    {
+      "type": "disk",
+      "key": "   Disk",
+      "keyColor": "blue",
+      "format": "{1} / {2} ({3})"
+    },
+    {
+      "type": "swap",
+      "key": "  󰓡 Swap",
+      "keyColor": "blue"
+    },
+    {
+      "type": "memory",
+      "key": "   Memory",
+      "keyColor": "blue"
+    },
+    {
+      "type": "custom",
+      "format": "└───────────────────────────────────────────────────────┘"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "colors",
+      "symbol": "circle",
+      "paddingLeft": 2
+    },
+    {
+      "type": "break"
+    }
+  ]
+}
