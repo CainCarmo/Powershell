@@ -9,6 +9,7 @@ Import-Module -Name PSReadLine
 Import-Module -Name Terminal-Icons
 Import-Module -Name "${Global:PS_HOME_PROFILE}\Modules\UI\OhMyPosh.psd1"
 Import-Module -Name "${Global:PS_HOME_PROFILE}\Modules\UI\Fastfetch.psd1"
+Import-Module -Name "${Global:PS_HOME_PROFILE}\Modules\Utils\Aliases.psd1"
 
 # --> Settings
 Set-PSReadLineOption -EditMode Windows
@@ -18,3 +19,7 @@ Set-PSReadLineKeyHandler -Key Tab -Function TabCompleteNext
 
 Set-OhMyPoshTheme -themeName "kushal"
 Show-SystemInfo
+
+# --> Aliases
+Set-Alias -Name ls -Value ListItems
+Set-Alias -Name nv -Value nvim -Force
