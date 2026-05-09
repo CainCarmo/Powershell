@@ -21,6 +21,7 @@ This repository contains PowerShell profile configuration and modules for my per
   - `Terminal-Icons`
   - `Oh-My-Posh`
   - `Fastfetch`
+  - `eza`
 
 # 3. License
 
