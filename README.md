@@ -23,7 +23,13 @@ This repository contains PowerShell profile configuration and modules for my per
   - `Fastfetch`
   - `eza`
 
-# 3. License
+# 3. Showcase
+
+<div align="center">
+  <img src="./assets/images/showcase.png" alt="PowerShell Profile Showcase" />
+</div>
+
+# 4. License
 
 This repository is licensed under the `MIT` License. See the [LICENSE][repo-license-link] file for more details.
 
