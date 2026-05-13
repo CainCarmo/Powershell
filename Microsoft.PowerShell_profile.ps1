@@ -18,7 +18,10 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 Set-PSReadLineKeyHandler -Key Tab -Function TabCompleteNext
 
 Set-OhMyPoshTheme -themeName "kushal"
-Show-SystemInfo
+
+if (-not $env:TERM_PROGRAM -eq "vscode") {
+  Show-SystemInfo
+}
 
 # --> Aliases
 Set-Alias -Name ls -Value ListItems
