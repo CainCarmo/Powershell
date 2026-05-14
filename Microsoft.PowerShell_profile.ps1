@@ -10,6 +10,7 @@ Import-Module -Name Terminal-Icons
 Import-Module -Name "${Global:PS_HOME_PROFILE}\Modules\UI\OhMyPosh.psd1"
 Import-Module -Name "${Global:PS_HOME_PROFILE}\Modules\UI\Fastfetch.psd1"
 Import-Module -Name "${Global:PS_HOME_PROFILE}\Modules\Utils\Aliases.psd1"
+Import-Module -Name "${Global:PS_HOME_PROFILE}\Modules\Utils\Helpers.psd1"
 
 # --> Settings
 Set-PSReadLineOption -EditMode Windows
