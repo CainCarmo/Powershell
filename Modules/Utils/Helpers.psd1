@@ -7,6 +7,6 @@
   Description       = 'A PowerShell module that provides various helper functions to simplify common tasks and operations.'
 
   FunctionsToExport = @(
-
+    'Get-VideoSection'
   )
 }
