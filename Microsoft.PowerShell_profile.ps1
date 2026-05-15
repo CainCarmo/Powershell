@@ -27,3 +27,5 @@ if (-not $env:TERM_PROGRAM -eq "vscode") {
 # --> Aliases
 Set-Alias -Name ls -Value ListItems
 Set-Alias -Name nv -Value nvim -Force
+
+Set-Alias -Name gvs -Value Get-VideoSection
